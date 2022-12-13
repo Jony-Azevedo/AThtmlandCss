@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+}
+
+.icone{
+    margin-top: 0px;
+}
+
+.menu,.m_lista{
+    display: flex;
+    justify-content: space-between;
+    
+}  
+.m_item{
+    list-style:none;
+}
+.blocos{
+    display: flex;
+    margin:0px;
+
+
+   
+}
+.bloco1{
+    display: inline-block;
+    width: 1265px;
+    height: 920px;
+    background-color: #dbead5;
+    text-align: center;
+    margin-bottom: 0px;
+   
+
+}
+.bloco2{
+    display: inline-block;
+    width: 1286px;
+    height: 920px;
+   background-color: rgb(211, 211, 211);
+   text-align: center;
+   margin-bottom: 0px;
+}
+
+.m_item{
+    color: white;
+}
+.container{
+    background-color: black;
+    margin-top: 0px;
+    height: 110px;
+}
+#titulosite{
+    margin-top: 22px;
+    font-size: 25px;
+    font-family: montserrat;
+    font-weight:bold;
+}
+#local{
+    margin-top: 22px;
+    margin-right: 15px;
+    font-size: 22px;
+    font-family: montserrat;
+    font-weight:bold;
+
+}
+#filmes{
+    margin-top: 22px;
+    margin-right: 25px;
+    font-size: 22px;
+    font-family: montserrat;
+    font-weight:bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.titulo_video{
+    margin-bottom: 150px;
+    font-size: 25px;
+    font-family: montserrat;
+    font-weight:bold;
+    color: #0000CD;
+}
+.subtitulo{
+    font-family: montserrat;
+    font-weight:bold;
+    color: #483D8B;
+}
+.titulo_imagem{
+    font-size: 25px;
+    font-family: montserrat;
+    
+}
+.descricao1{
+    margin-top: 18px;
+    font-family: montserrat;
+    font-weight:300;
+    font-size: 20px;
+}
+.descricao2{
+    margin-top: 22px;
+    font-family: montserrat;
+    font-weight:300;
+    font-size: 20px;
+}
+.botao{
+    margin-top: 20px;
+    background-color: darkblue;
+    width: 320px;
+    height: 50px;
+    border: 3px solid Orange;
+    border-radius: 8px;
+    font-family: montserrat;
+    font-weight:bold;
+    font-size: 20px;
+
+}
+.botao:hover{
+    opacity: 0.7;
+}
+.rodape{
+    background-color: black;
+    height: 50px;
+    margin: 0px;
+}
+.lista_rodape{
+    display: flex;
+    list-style:none;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+.itens_rodape{
+    color: white;
+    font-family: montserrat;
+    font-weight:bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
