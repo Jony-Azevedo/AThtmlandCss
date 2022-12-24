@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Nights - Home</title>
     <link href="estilo_home.css" rel="stylesheet" type="text/css">
-    <link rel="icon" type="imagem/png" href="C:\Users\c.jazev\OneDrive - Ternium\Escritorio\AT_html_css\projetoAT_htmlecss-20221213T105537Z-001\projetoAT_htmlecss\logo_pq.ico">
+    <link rel="icon" type="imagem/png" href="logo_pq.ico">
 </head>
 <body>
     <header class="container">
         <nav class="menu">
           <ul class="m_lista">
               <li class="m_item">
-                 <figure class="icone">
-                    <img src="C:\Users\c.jazev\OneDrive - Ternium\Escritorio\AT_html_css\projetoAT_htmlecss-20221213T105537Z-001\projetoAT_htmlecss\logo_pq.ico" alt="Movie Nights" 
+                 <a href="home.html">
+                    <figure class="icone">
+                      <img src="logo_pq.ico" alt="clique para recarregar a página" 
                     title="Movie Nights">
-                 </figure>
+                    </figure>
+                 </a>
               </li>
-              <li id="titulosite" class="m_item"><a href="home.html"  target="blank">Cinema pelo mundo</a></li>
+              <li id="titulosite" class="m_item"><a href="home.html" title="Cinema pelo mundo">Cinema pelo mundo</a></li>
           </ul>
           <ul class="m_lista">
-              <li id="local" class="m_item"><a href="local.html" >Local</a></li>
-              <li id="filmes" class="m_item"><a href="filmes.html" >Filmes</a></li>
+              <li id="local" class="m_item"><a href="local.html" title="Local">Local</a></li>
+              <li id="filmes" class="m_item"><a href="filmes.html" title="Filmes">Filmes</a></li>
           </ul>
         </nav>
       </header>
@@ -30,20 +32,22 @@
         <section class="bloco1">
             <h1 class="titulo_imagem">Cinema</h1>
             <figure>
-                <img src="C:\Users\c.jazev\OneDrive - Ternium\Escritorio\AT_html_css\projetoAT_htmlecss-20221213T105537Z-001\projetoAT_htmlecss\balaoCinema.jpg" alt="Balão Cinema" title="Balão Cinema">
-                <figcaption class="descricao1">
-                    O Cinema (do grego: κινημα, kinema "movimentos" e γράφειν, graphein "registrar"), também chamada sétima arte,ou, em certos contextos cinematografia, pode ser definida como a técnica e a arte de fixar e de reproduzir imagens que suscitam impressão de movimento, assim como a indústria que produz estas imagens.
-                </figcaption>
-                <figcaption class="descricao2">
-                    Oferecemos experências cinematográficas inovadoras pelo mundo através de nossos balões mirabolantes, movidos a amor e hélio.
-                </figcaption>
+                <img src="balaoCinema.jpg" alt="Balão Cinema" title="Balão Cinema">
             </figure>
-            <button class="botao"><a href="filmes.html" alt="Vá para filmes" target="">Veja nossos filmes em cartaz</a></button>
+            <div id="caixa_de_texto">
+                <p class="descricao1">
+                    O Cinema (do grego: κινημα, kinema "movimentos" e γράφειν, graphein "registrar"), também chamada sétima arte,ou, em certos contextos cinematografia, pode ser definida como a técnica e a arte de fixar e de reproduzir imagens que suscitam impressão de movimento, assim como a indústria que produz estas imagens.
+                </p>
+                <p class="descricao2">
+                    Oferecemos experências cinematográficas inovadoras pelo mundo através de nossos balões mirabolantes, movidos a amor e hélio.
+                </p>
+            </div>
+            <a href="filmes.html" title="vá para filmes"><button class="botao">Veja nossos filmes em cartaz</button></a>
         </section>
         <section class="bloco2">
             <h1 class="titulo_video">Vídeo do cinema pelo mundo</h1>
         
-            <iframe width="450" height="300" src="https://www.youtube.com/embed/avFXu5dJQII" title="A Origem do Cinema" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="" width="450" height="300" src="https://www.youtube.com/embed/avFXu5dJQII" title="A Origem do Cinema" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
             <h2 class="subtitulo">Veja nosso espetáculo!</h2>
         </section>

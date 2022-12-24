@@ -1,21 +1,31 @@
 body{
     margin: 0px;
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight:700;
 }
 
 .icone{
     margin-top: 0px;
 }
-
+.menu{
+    text-align: center;
+}
 .menu,.m_lista{
     display: flex;
     justify-content: space-between;
     
 }  
+.m_lista{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}  
 .m_item{
     list-style:none;
-}
-.m_item{
     color: white;
+}
+#figure{
+    margin: 0px;
 }
 .container{
     background-color: black;
@@ -24,37 +34,27 @@ body{
 }
 #titulosite{
     margin-top: 22px;
-    font-size: 25px;
-    font-family: montserrat;
-    font-weight:bold;
+    margin-left: 12px;
 }
 #local{
     margin-top: 22px;
-    margin-right: 15px;
+    margin-right:15px;
     font-size: 22px;
-    font-family: montserrat;
-    font-weight:bold;
-
 }
 #filmes{
     margin-top: 22px;
-    margin-right: 25px;
+    margin-right:25px;
     font-size: 22px;
-    font-family: montserrat;
-    font-weight:bold;
 }
 a{
     text-decoration: none;
     color: white;
 }
-
 h2{
     text-align: center;
 }
 #titulo_italico{
     font-style: italic;
-    font-size: 25px;
-    font-weight:bold;
     margin-right: 30px;
     margin-top: 60px ;
     margin-bottom: 60px;
@@ -67,8 +67,6 @@ h2{
     text-align: center;
     background-color: #dbead5;
     font-size: 22px;
-    font-family: montserrat;
-    font-weight:bold;
 }
 .part2{
     display: flex;
@@ -78,9 +76,7 @@ h2{
 }
 .lista1{
     text-align: left;
-    font-size: 18px;
-    font-family: montserrat;
-    font-weight:bold;
+    font-size: 22px;
 }
 .cidades{
     list-style:none;
@@ -88,14 +84,18 @@ h2{
 #lista2{
     text-align: left;
     margin-left: 30px;
-    font-size: 18px;
-    font-family: montserrat;
-    font-weight:bold;
+    font-size: 22px;
 }
 .contato{
-    margin-left: 900px;
-    margin-top: 240px;
-    margin-right: 5px;
+   /*  margin-left: 900px; */
+    /* margin-top: 295px;
+    margin-bottom:0px; */
+    margin: 0px;
+    margin-right: 15px;
+    position: fixed;
+    bottom: 220px;
+    top: 845px;
+
 }
 .link_final{
     list-style: none;
@@ -125,8 +125,6 @@ h2{
 }
 .itens_rodape{
   color: white;
-  font-family: montserrat;
-  font-weight:bold;
   font-size: 20px;
   margin-top: 15px;
 }

@@ -1,20 +1,28 @@
 body{
     margin: 0px;
+    font-family: montserrat;
+    font-weight:700;
+    font-size: 20px;
 }
 
 .icone{
     margin-top: 0px;
+}
+.menu{
+    text-align: center;
 }
 
 .menu,.m_lista{
     display: flex;
     justify-content: space-between;
     
+}
+.m_lista{
+    margin-top: 16px;
+    margin-bottom: 16px;
 }  
 .m_item{
     list-style:none;
-}
-.m_item{
     color: white;
 }
 .container{
@@ -25,23 +33,17 @@ body{
 #titulosite{
     margin-top: 22px;
     font-size: 25px;
-    font-family: montserrat;
-    font-weight:bold;
+    margin-left: 12px;
 }
 #local{
     margin-top: 22px;
-    margin-right: 15px;
+    margin-right:15px;
     font-size: 22px;
-    font-family: montserrat;
-    font-weight:bold;
-
 }
 #filmes{
     margin-top: 22px;
-    margin-right: 25px;
+    margin-right:25px;
     font-size: 22px;
-    font-family: montserrat;
-    font-weight:bold;
 }
 a{
     text-decoration: none;
@@ -50,20 +52,22 @@ a{
 .sessoes{
     display: flex;
     margin:0px;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #dbead5;
+    padding-top:20px;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 .cards{
     margin-top: 60px;
-    width: 300px;
-    height: 600px;
+    width: 296px;
+    height: 596px;
     border: 2px solid darkblue;
     border-radius: 8px;
-    
     text-align: center;
-    font-family: montserrat;
     font-weight:300;
     font-size: 16px;
+    margin-top: 0px;
 }
 
 .cartaz{
@@ -73,16 +77,20 @@ a{
 figure{
     margin: 0px;
 }
-figcaption{
+.sinopse{
     margin-top: 10px;
     margin-left: 8px;
     margin-bottom: 0px;
     margin-right: 8px;
     text-align: center;
 }
+
 .icone_para_fechar{
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    margin-bottom: 8px;
+    margin-left: 268px;
 }
 .fechar{
     width: 20px;
@@ -104,9 +112,6 @@ figcaption{
     margin-top: 40px ;
     margin-bottom: 40px;
     text-align: center;
-    font-family: montserrat;
-    font-weight:bold;
-    font-size: 20px;
     margin-left: 5px;
     
 
@@ -135,8 +140,29 @@ td, th{
 }
 .itens_rodape{
     color: white;
-    font-family: montserrat;
-    font-weight:bold;
-    font-size: 20px;
     margin-top: 15px;
+}
+#observacaoFilmes{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    background-color: #dbead5;
+    padding-top: 25px;
+    font-size: 24px;
+}
+#ObservacaoColor{
+    color: red;
+}
+#caixaDeAviso{
+    background-color: #dbead5;
+
+}
+.tituloFilme{
+    font-size: 22px;
+    margin-top: 15px;
+}
+#terceiroFilme{
+    padding-right: 21px;
+    padding-top: 12px;
 }
